@@ -1,0 +1,165 @@
+body{
+    font-family: Verdana, Geneva,sans-serif;
+}
+.content-nav h5{
+    display: inline;
+    font-size:small;
+    font-weight: 750;
+    
+}
+.content-nav{
+    word-spacing: 30px;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 3%;
+    
+}
+.content-nav a{
+    color: black;
+}
+
+.head{
+    padding:90px 0px 90px 0px;
+}
+
+.img-1 img{
+    width: 220px;
+    height: 220px;
+}
+.img-2 img{
+    width: 450px;
+    height: 600px;
+}
+.img-4 img{
+    width: 450px;
+    height: 600px;
+}
+
+.row-content{
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.img-3 img{
+    width: 100%;
+}
+.nav{
+    display: none;
+}
+
+.title {
+    text-align: center;
+}
+.img-5 img{
+    width: 400px;
+    height: 700px;
+}
+
+.text p{
+    letter-spacing: 2px;
+    font-weight: bolder;
+    word-spacing: 3px;
+    font-size: large;
+}
+.text h2{
+    font-weight: bold;
+    word-spacing:4px ;
+}
+.top{
+    margin-top: 5%;
+}
+.form {
+    padding-top: 40%;
+    left: 50%;
+    top: 50%;
+    margin-left: -25%;
+    position: absolute;
+    margin-top: -25%;
+}
+
+label{
+    padding: 10px;
+}
+#email{
+    width: 100%;
+}
+
+#submit{
+    margin: 15px 0px 50px 0;
+    border: 2px solid black;
+    width: 20%;
+    height: 40px
+}
+#submit:hover{
+    background-color: #333131;
+    color: #fff;
+}
+@media(max-width:400px){
+    .img-2 img{
+        width: 100%;
+        height: 400px;
+        padding-left: 30px;
+    }
+    .img-4 img{
+        width: 100%;
+        height: 400px;
+    }
+    .img-5 img{
+        width: 100%;
+    }
+    .img-6{
+        width: 50%;
+        height: 50%;
+    }
+
+    h1{
+        font-size:x-large;
+        font-weight: bolder;
+    }
+    .content-nav{
+        display: none;
+    }
+    .nav{
+        display: contents;
+    }
+    .nav .menu-icon > .line {
+        background-color: #292929;
+        height: 3px;
+        display: block;
+        width: 30px;
+        margin-top:5%;
+
+    }
+    
+    .menu-icon > .line + .line {
+        margin-top: 5px;
+    }
+
+
+    .form {
+    padding-top: 40%;
+    left: 0%;
+    top: 50%;
+    margin-left: 0%;
+    position: absolute;
+    margin-top: 0%;
+    padding: 0px 10px 0px 10px;
+    display:list-item;
+}
+#email{
+    width: 100%;
+}
+
+#submit{
+    margin: 15px 0px 50px 0;
+    border: 2px solid black;
+    width: 40%;
+    height: 40px
+}
+label{
+    padding: 20px;
+}
+
+}
